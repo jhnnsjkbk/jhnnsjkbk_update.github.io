@@ -2,96 +2,132 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Johannes Jakubik
+    - name: Role
+      value: Research Scientist — AI for Climate Impact
+    - name: Location
+      value: Zürich, Switzerland
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist
+      institution: IBM Research Europe
+      year: March 2025 – ongoing
+      location: Zürich, Switzerland
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Technical lead for multimodal generative modeling focusing on pretraining and scaling; co‑lead for IBM Research activities on deep learning for planetary observations.
+        - Co‑leading efforts at the intersection of quantum graph optimization and deep learning.
+        - Contributing to deep learning models for weather and climate assessments.
+
+    - title: Postdoctoral Researcher
+      institution: IBM Research Europe
+      year: January 2024 – February 2025
+      location: Zürich, Switzerland
       description:
-        - Description 1.
-        - Description 2.
+        - Led research on pretraining and scaling multi‑modal deep learning models for Earth observation.
+        - Contributed to development of deep learning models for weather and climate assessments.
+        - Deep Learning for Quantum Optimization Algorithms (voluntary internal project).
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Visiting Researcher
+      institution: IBM Research Europe
+      year: October 2022 – December 2023
+      location: Zürich, Switzerland
       description:
+        - Self‑supervised deep learning for Earth observation.
+        - Domain adaptation techniques for detection of natural hazards.
+        - Work conducted as voluntary projects during PhD.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Associate & PhD Candidate in Machine Learning & Information Systems
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: October 2020 – December 2023
+      location: Karlsruhe, Germany
+      description:
+        - Research on applied machine learning and deep learning.
+        - Teaching: “Artificial Intelligence in Service Systems — Applications in Computer Vision”.
+        - Thesis: “Data‑Centric Artificial Intelligence: Foundations and Methods for Deep Learning” (summa cum laude).
 
-- title: Open Source Projects
+    - title: Research & Teaching Assistant
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: April 2017 – February 2019
+      location: Karlsruhe, Germany
+      description:
+        - Teaching Assistant for Operations Research and Statistics.
+        - Student Research Assistant on Machine Learning and Reinforcement Learning.
+
+    - title: Undergrad Internships (Industry)
+      institution: Multiple (Germany)
+      year: September 2016 – January 2020
+      location: Multiple locations, Germany
+      description:
+        - Formula E (Porsche Motorsports): AI‑based applications for performance optimization.
+        - Quant Finance Consulting (d‑fine): Natural Language Processing in S&P 500 business reports.
+        - Energy (EnBW AG): NLP to categorize customer interactions.
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ph.D. in Applied Deep Learning
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: October 2020 – March 2024
+      location: Karlsruhe, Germany
+      description:
+        - Ph.D. thesis: “Data‑Centric Artificial Intelligence: Foundations and Methods for Deep Learning” (summa cum laude).
 
-- title: Honors and Awards
+    - title: Master’s Thesis in Machine Learning & Optimization
+      institution: ETH Zürich (D-MTEC)
+      year: April 2020 – October 2020
+      location: Zürich, Switzerland
+      description:
+        - M.Sc. thesis combining deep learning with mathematical optimization (highest grade).
+
+    - title: Master of Science
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: April 2018 – October 2020
+      location: Karlsruhe, Germany
+      description:
+        - Focus: machine learning, stochastic optimization, recommender systems.
+        - Master thesis at ETH Zürich: “Applied prescriptive analytics: Combining machine learning and mathematical optimization” (grade 1.0).
+
+    - title: Visiting Student (Master of Science)
+      institution: Instituto Superior Técnico
+      year: September 2018 – January 2019
+      location: Lisbon, Portugal
+      description:
+        - Information Systems and Computer Engineering.
+        - Courses: multivariate statistical methods; information processing & retrieval; decision support models.
+
+    - title: Bachelor of Science
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: October 2014 – April 2018
+      location: Karlsruhe, Germany
+      description:
+        - Thesis: “Reinforcement learning‑based optimization of stochastic production processes for an opportunistic maintenance system” (highest grade).
+
+- title: Affiliations
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Affiliated Research Member (D‑MTEC)
+      institution: ETH Zürich
+      year: October 2020 – October 2021
+      location: Zürich, Switzerland
+      description:
+        - Research on emotion dynamics on social media.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# Optional sections you can enable later:
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Earth Observation & Climate AI
+#       items:
+#         - Multimodal pretraining and scaling strategies.
+#         - Self-supervised learning for geospatial data.
+#     - title: Optimization & ML
+#       items:
+#         - Quantum-inspired graph optimization w/ deep learning.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - Endurance sports, mountain hiking, photography.
